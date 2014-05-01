@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		93AA4DF5191252B80016B4C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93AA4DF4191252B80016B4C2 /* Foundation.framework */; };
+		93AA4DF7191252B80016B4C2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93AA4DF6191252B80016B4C2 /* CoreGraphics.framework */; };
+		93AA4DF9191252B80016B4C2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93AA4DF8191252B80016B4C2 /* UIKit.framework */; };
+		93AA4DFB191252B80016B4C2 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93AA4DFA191252B80016B4C2 /* CoreData.framework */; };
+		93AA4E01191252B80016B4C2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 93AA4DFF191252B80016B4C2 /* InfoPlist.strings */; };
+		93AA4E03191252B80016B4C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93AA4E02191252B80016B4C2 /* main.m */; };
+		93AA4E07191252B80016B4C2 /* XNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93AA4E06191252B80016B4C2 /* XNAppDelegate.m */; };
+		93AA4E0A191252B80016B4C2 /* XINGTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 93AA4E08191252B80016B4C2 /* XINGTest.xcdatamodeld */; };
+		93AA4E0C191252B80016B4C2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93AA4E0B191252B80016B4C2 /* Images.xcassets */; };
+		93AA4E13191252B90016B4C2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93AA4E12191252B90016B4C2 /* XCTest.framework */; };
+		93AA4E14191252B90016B4C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93AA4DF4191252B80016B4C2 /* Foundation.framework */; };
+		93AA4E15191252B90016B4C2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93AA4DF8191252B80016B4C2 /* UIKit.framework */; };
+		93AA4E16191252B90016B4C2 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93AA4DFA191252B80016B4C2 /* CoreData.framework */; };
+		93AA4E1E191252B90016B4C2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 93AA4E1C191252B90016B4C2 /* InfoPlist.strings */; };
+		93AA4E20191252B90016B4C2 /* XINGTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93AA4E1F191252B90016B4C2 /* XINGTestTests.m */; };
+		93AA4E2A191253FB0016B4C2 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93AA4E29191253FB0016B4C2 /* Storyboard.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		93AA4E17191252B90016B4C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93AA4DE9191252B80016B4C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93AA4DF0191252B80016B4C2;
+			remoteInfo = XINGTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		93AA4DF1191252B80016B4C2 /* XINGTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XINGTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93AA4DF4191252B80016B4C2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		93AA4DF6191252B80016B4C2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		93AA4DF8191252B80016B4C2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		93AA4DFA191252B80016B4C2 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		93AA4DFE191252B80016B4C2 /* XINGTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XINGTest-Info.plist"; sourceTree = "<group>"; };
+		93AA4E00191252B80016B4C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		93AA4E02191252B80016B4C2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		93AA4E04191252B80016B4C2 /* XINGTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XINGTest-Prefix.pch"; sourceTree = "<group>"; };
+		93AA4E05191252B80016B4C2 /* XNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XNAppDelegate.h; sourceTree = "<group>"; };
+		93AA4E06191252B80016B4C2 /* XNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XNAppDelegate.m; sourceTree = "<group>"; };
+		93AA4E09191252B80016B4C2 /* XINGTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = XINGTest.xcdatamodel; sourceTree = "<group>"; };
+		93AA4E0B191252B80016B4C2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		93AA4E11191252B90016B4C2 /* XINGTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XINGTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		93AA4E12191252B90016B4C2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		93AA4E1B191252B90016B4C2 /* XINGTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XINGTestTests-Info.plist"; sourceTree = "<group>"; };
+		93AA4E1D191252B90016B4C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		93AA4E1F191252B90016B4C2 /* XINGTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XINGTestTests.m; sourceTree = "<group>"; };
+		93AA4E29191253FB0016B4C2 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93AA4DEE191252B80016B4C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93AA4DF7191252B80016B4C2 /* CoreGraphics.framework in Frameworks */,
+				93AA4DFB191252B80016B4C2 /* CoreData.framework in Frameworks */,
+				93AA4DF9191252B80016B4C2 /* UIKit.framework in Frameworks */,
+				93AA4DF5191252B80016B4C2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93AA4E0E191252B90016B4C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93AA4E13191252B90016B4C2 /* XCTest.framework in Frameworks */,
+				93AA4E16191252B90016B4C2 /* CoreData.framework in Frameworks */,
+				93AA4E15191252B90016B4C2 /* UIKit.framework in Frameworks */,
+				93AA4E14191252B90016B4C2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		93AA4DE8191252B80016B4C2 = {
+			isa = PBXGroup;
+			children = (
+				93AA4DFC191252B80016B4C2 /* XINGTest */,
+				93AA4E19191252B90016B4C2 /* XINGTestTests */,
+				93AA4DF3191252B80016B4C2 /* Frameworks */,
+				93AA4DF2191252B80016B4C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		93AA4DF2191252B80016B4C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93AA4DF1191252B80016B4C2 /* XINGTest.app */,
+				93AA4E11191252B90016B4C2 /* XINGTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93AA4DF3191252B80016B4C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93AA4DF4191252B80016B4C2 /* Foundation.framework */,
+				93AA4DF6191252B80016B4C2 /* CoreGraphics.framework */,
+				93AA4DF8191252B80016B4C2 /* UIKit.framework */,
+				93AA4DFA191252B80016B4C2 /* CoreData.framework */,
+				93AA4E12191252B90016B4C2 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		93AA4DFC191252B80016B4C2 /* XINGTest */ = {
+			isa = PBXGroup;
+			children = (
+				93AA4E05191252B80016B4C2 /* XNAppDelegate.h */,
+				93AA4E06191252B80016B4C2 /* XNAppDelegate.m */,
+				93AA4E0B191252B80016B4C2 /* Images.xcassets */,
+				93AA4E08191252B80016B4C2 /* XINGTest.xcdatamodeld */,
+				93AA4E29191253FB0016B4C2 /* Storyboard.storyboard */,
+				93AA4DFD191252B80016B4C2 /* Supporting Files */,
+			);
+			path = XINGTest;
+			sourceTree = "<group>";
+		};
+		93AA4DFD191252B80016B4C2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				93AA4DFE191252B80016B4C2 /* XINGTest-Info.plist */,
+				93AA4DFF191252B80016B4C2 /* InfoPlist.strings */,
+				93AA4E02191252B80016B4C2 /* main.m */,
+				93AA4E04191252B80016B4C2 /* XINGTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		93AA4E19191252B90016B4C2 /* XINGTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				93AA4E1F191252B90016B4C2 /* XINGTestTests.m */,
+				93AA4E1A191252B90016B4C2 /* Supporting Files */,
+			);
+			path = XINGTestTests;
+			sourceTree = "<group>";
+		};
+		93AA4E1A191252B90016B4C2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				93AA4E1B191252B90016B4C2 /* XINGTestTests-Info.plist */,
+				93AA4E1C191252B90016B4C2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93AA4DF0191252B80016B4C2 /* XINGTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93AA4E23191252B90016B4C2 /* Build configuration list for PBXNativeTarget "XINGTest" */;
+			buildPhases = (
+				93AA4DED191252B80016B4C2 /* Sources */,
+				93AA4DEE191252B80016B4C2 /* Frameworks */,
+				93AA4DEF191252B80016B4C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XINGTest;
+			productName = XINGTest;
+			productReference = 93AA4DF1191252B80016B4C2 /* XINGTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		93AA4E10191252B90016B4C2 /* XINGTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93AA4E26191252B90016B4C2 /* Build configuration list for PBXNativeTarget "XINGTestTests" */;
+			buildPhases = (
+				93AA4E0D191252B90016B4C2 /* Sources */,
+				93AA4E0E191252B90016B4C2 /* Frameworks */,
+				93AA4E0F191252B90016B4C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93AA4E18191252B90016B4C2 /* PBXTargetDependency */,
+			);
+			name = XINGTestTests;
+			productName = XINGTestTests;
+			productReference = 93AA4E11191252B90016B4C2 /* XINGTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93AA4DE9191252B80016B4C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = XN;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Naira;
+				TargetAttributes = {
+					93AA4E10191252B90016B4C2 = {
+						TestTargetID = 93AA4DF0191252B80016B4C2;
+					};
+				};
+			};
+			buildConfigurationList = 93AA4DEC191252B80016B4C2 /* Build configuration list for PBXProject "XINGTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 93AA4DE8191252B80016B4C2;
+			productRefGroup = 93AA4DF2191252B80016B4C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93AA4DF0191252B80016B4C2 /* XINGTest */,
+				93AA4E10191252B90016B4C2 /* XINGTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93AA4DEF191252B80016B4C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93AA4E01191252B80016B4C2 /* InfoPlist.strings in Resources */,
+				93AA4E0C191252B80016B4C2 /* Images.xcassets in Resources */,
+				93AA4E2A191253FB0016B4C2 /* Storyboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93AA4E0F191252B90016B4C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93AA4E1E191252B90016B4C2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93AA4DED191252B80016B4C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93AA4E07191252B80016B4C2 /* XNAppDelegate.m in Sources */,
+				93AA4E03191252B80016B4C2 /* main.m in Sources */,
+				93AA4E0A191252B80016B4C2 /* XINGTest.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93AA4E0D191252B90016B4C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93AA4E20191252B90016B4C2 /* XINGTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		93AA4E18191252B90016B4C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93AA4DF0191252B80016B4C2 /* XINGTest */;
+			targetProxy = 93AA4E17191252B90016B4C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		93AA4DFF191252B80016B4C2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93AA4E00191252B80016B4C2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		93AA4E1C191252B90016B4C2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93AA4E1D191252B90016B4C2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		93AA4E21191252B90016B4C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		93AA4E22191252B90016B4C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		93AA4E24191252B90016B4C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XINGTest/XINGTest-Prefix.pch";
+				INFOPLIST_FILE = "XINGTest/XINGTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		93AA4E25191252B90016B4C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XINGTest/XINGTest-Prefix.pch";
+				INFOPLIST_FILE = "XINGTest/XINGTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		93AA4E27191252B90016B4C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/XINGTest.app/XINGTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XINGTest/XINGTest-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "XINGTestTests/XINGTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		93AA4E28191252B90016B4C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/XINGTest.app/XINGTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XINGTest/XINGTest-Prefix.pch";
+				INFOPLIST_FILE = "XINGTestTests/XINGTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93AA4DEC191252B80016B4C2 /* Build configuration list for PBXProject "XINGTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93AA4E21191252B90016B4C2 /* Debug */,
+				93AA4E22191252B90016B4C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93AA4E23191252B90016B4C2 /* Build configuration list for PBXNativeTarget "XINGTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93AA4E24191252B90016B4C2 /* Debug */,
+				93AA4E25191252B90016B4C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		93AA4E26191252B90016B4C2 /* Build configuration list for PBXNativeTarget "XINGTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93AA4E27191252B90016B4C2 /* Debug */,
+				93AA4E28191252B90016B4C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		93AA4E08191252B80016B4C2 /* XINGTest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				93AA4E09191252B80016B4C2 /* XINGTest.xcdatamodel */,
+			);
+			currentVersion = 93AA4E09191252B80016B4C2 /* XINGTest.xcdatamodel */;
+			path = XINGTest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 93AA4DE9191252B80016B4C2 /* Project object */;
+}
